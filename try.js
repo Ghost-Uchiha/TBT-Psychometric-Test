@@ -414,7 +414,7 @@ resultsContainer.appendChild(resultElement);
 	document.getElementById('hero').style.height = "180vh";
 	const mobileMediaQuery = window.matchMedia("(max-width: 576px)");
 	if(mobileMediaQuery.matches){
-		document.getElementById('hero').style.height = "450vh";
+		document.getElementById('hero').style.height = "490vh";
 	document.getElementById("main-header").style.top="-100px"
 	document.getElementById("results-container").style.top="-150px"
 	}
