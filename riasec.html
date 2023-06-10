@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best MBA CET Class | The Bodhi Tree</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="https://static.wixstatic.com/media/01a1cb_52a7386a22b543828223658725b6ac65%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/01a1cb_52a7386a22b543828223658725b6ac65%7Emv2.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- <section class="header">
+      <a href="#" class="logo"
+        ><img
+          src="https://static.wixstatic.com/media/01a1cb_d9d9bab3143c45449a2da8ed29fbbbd9~mv2.png/v1/crop/x_0,y_20,w_1968,h_995/fill/w_325,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TBT_Logo.png"
+          alt=""
+      /></a>
+      <div class="nav-align">
+      <div class="nav">
+        <ul id="navbar">
+          <li><a href="https://tbtprep.com/home" style="color:#ffb401">Home</a></li>
+          <li><a href="https://tbtprep.com/about">About</a></li>
+          <li><a href="https://tbtprep.com//mba">MBA Enterance</a></li>
+          <li><a href="https://tbtprep.com/youtube">Youtube</a></li>
+          <li><a href="https://tbtprep.com/gre">GRE</a></li>
+          <li><a href="https://tbtprep.com/testimonials">Testimonials</a></li>
+          <li><a href="riasec-test.html">Riasec Test</a></li>
+          <li><a href="https://tbtprep.com//triallession">Trail Lession</a></li>
+          <li class="dropdown">
+            <a href="#">More</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Agnipariksha</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      </div>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </section> -->
+    <section id="hero" class="hero">
+      <div class="hero-sub" >
+        <h2 id="main-header">The Bodhi Tree's Psychometric Test</h2>
+        <p id="detail"><strong>Think about whether or
+            not each statement applies to you.</strong></p>
+        <div class="hero-box border"style="background-color:#253444;color:#fff" id="container">
+          
+            <button class=" back-button " id="back" onclick="goBack()">back</button> 
+            <p id="number" class="number">1 of 42</p>
+            <br>
+            <br>
+            <br>
+            <br>
+          <div class="paragraph que-answer">
+           
+           <h3
+           class="question" id="question">I like to work on cars</h3>
+       <div id="bt" class="answer-container" >
+        <button class="answer true " value="true"  onclick="changeQuestion('True')" style="text-align: center;">True</button>
+           <button  class="answer false" value="false"  onclick="changeQuestion('False')" style="text-align: center;">False</button></div></div>
+           
+        </div>
+        <div id="results-container"></div>
+        <div id="count" style="display:none"></div>
+        <div class="hidden" id="hid">
+          <div class="center">
+          <div id="req" >
+            <p id="phid" >Phone Number:</p>
+            <input type="tel" id="ph" required onkeypress="restrictPhoneNumberInput(event)" oninput="showDropdownph()">
+            <select class="pre" id="previousPhoneNumbers" style="display:none"></select>
+            <br><br>
+            <p id="gmailid" for="gmail">Email:</p>
+            <input type="email" id="gmail" required oninput="showDropdownemail()">
+            <select class="pre" id="previousEmails" style="display: none;"></select>
+            <br><br>
+            <button  id="sub" type="submit" onclick="display()">Submit</button>
+          </div>
+          </div>
+    </div>
+      </div>
+    </section>
+    <!-- <footer>
+      <div class="footer-top">
+        <div class="social-link">
+          <a href="#"><img src="image/telegram.png" alt="" /></a>
+          <a href="#"
+            ><img src="image/youtube.png" alt=""
+          /></a>
+          <a href="#"><img src="image/instagram.png" alt="" /></a>
+          <a href="#"><img src="image/facebook.png" alt="" /></a>
+        </div>
+        <div class="footer-nav">
+          <div>
+            <ul class="navbar1">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">MBA Enterance</a></li>
+              <li><a href="">Youtube</a></li>
+              <li><a href="">GRE</a></li>
+              <li><a href="">Testimonials</a></li>
+              <li><a href="">Riasec Test</a></li>
+              <li><a href="">Trail Lession</a></li>
+              <li><a href="">More</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <p>| getwise@tbtprep.com |</p>
+            <p>| 8421941190 |</p>
+            <p>| 8421941190 |</p>
+            <p>| Nashik | Pune |</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>2023 BY <span>The Bodhi Tree</span></p>
+        <div class="policy">
+          <a href="">Terms and Conditions</a>
+          <a href="">Privacy Policy</a>
+        </div>
+      </div>
+    </footer> -->
+    <script src="try.js"></script>
+    <script>
+      const bar = document.getElementById("bar");
+      const nav = document.getElementById("navbar");
+      const close = document.getElementById("close");
+      if (bar) {
+        bar.addEventListener("click", () => {
+          nav.classList.add("active");
+        });
+      }
+      if (close) {
+        close.addEventListener("click", () => {
+          nav.classList.remove("active");
+        });
+      }
+    </script>
+  </body>
+</html>
